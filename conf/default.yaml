@@ -26,7 +26,7 @@ packages:
     # scoped packages
     access: $all
     publish: $authenticated
-
+    proxy: npmjs
   '*':
     # allow all users (including non-authenticated users) to read and
     # publish all packages
